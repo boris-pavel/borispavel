@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Boris Pavel - AI Bachelor's Student & Scalable Systems Builder">
+    <title>Boris Pavel | borispavel.dev</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cursor-dot-outline"></div>
+    <div class="cursor-dot"></div>
+
+    <nav class="navbar">
+        <a href="#" class="logo">boris_pavel<span class="blink">_</span></a>
+        <ul class="nav-links">
+            <li><a href="#about">// about</a></li>
+            <li><a href="#projects">// projects</a></li>
+            <li><a href="#contact">// contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <p class="mono-accent">initializing_profile...</p>
+                <h1>Hi, I'm <span class="highlight">Boris Pavel</span>.</h1>
+                <h2 class="typing-container">
+                    <span id="typing-text"></span><span class="cursor">|</span>
+                </h2>
+                <p class="bio">
+                    I build <span class="text-white">scalable systems</span> specifically suited for human needs.
+                </p>
+                <div class="cta-group">
+                    <a href="#contact" class="btn primary">Execute Vision</a>
+                    <a href="#projects" class="btn secondary">View Source</a>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="code-block">
+                    <div class="window-controls">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <pre><code id="code-display">class BorisPavel:
+    def __init__(self):
+        self.role = "AI Bachelor's Student"
+        self.focus = "Scalable Systems"
+        self.stack = ["Python", "Full Stack", "AI/ML"]
+        
+    def build(self):
+        return "Human-Centric Solutions"</code></pre>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <div class="section-header">
+                <span class="line"></span>
+                <h3>01. System Specs</h3>
+                <span class="line"></span>
+            </div>
+            <div class="about-grid">
+                <div class="skill-card">
+                    <div class="card-icon">⚡</div>
+                    <h4>Core</h4>
+                    <p>AI & Machine Learning Student specializing in building intelligent systems.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="card-icon">🛠</div>
+                    <h4>Stack</h4>
+                    <p>Python, Web Dev Technologies, .NET, and practically everything needed to ship.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="card-icon">🚀</div>
+                    <h4>Mission</h4>
+                    <p>Bridging the gap between complex algorithms and intuitive human experiences.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <div class="section-header">
+                <span class="line"></span>
+                <h3>02. Executables</h3>
+                <span class="line"></span>
+            </div>
+            
+            <div class="project-card featured">
+                <div class="project-content">
+                    <div class="project-overline">Featured Project</div>
+                    <h4 class="project-title">Secure Auth System .NET</h4>
+                    <div class="project-description">
+                        <p>A production-ready web application demonstrating modern development practices. Features secure user registration, email verification, password recovery, and rock-solid data management.</p>
+                    </div>
+                    <ul class="project-tech-list">
+                        <li>.NET Core</li>
+                        <li>C#</li>
+                        <li>SQL Server</li>
+                        <li>Security</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="#" aria-label="GitHub Link"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a>
+                        <a href="#" aria-label="External Link"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></a>
+                    </div>
+                </div>
+                <div class="project-image-placeholder">
+                    <!-- Placeholder visual for the project -->
+                    <div class="terminal-mock">
+                        <div class="term-header">server_logs.txt</div>
+                        <div class="term-body">
+                            <span class="green">✔</span> User authenticated<br>
+                            <span class="green">✔</span> Token verified<br>
+                            <span class="green">✔</span> Session encrypted<br>
+                            <span class="blue">ℹ</span> Ready for requests...
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <div class="section-header">
+                <span class="line"></span>
+                <h3>03. Handshake</h3>
+                <span class="line"></span>
+            </div>
+            <div class="contact-wrapper">
+                <h2>Ready to collaborate?</h2>
+                <p>Whether you have a question or just want to say hi, my inbox is always open.</p>
+                <a href="mailto:borisandreipavel@gmail.com" class="btn primary">borisandreipavel@gmail.com</a>
+                
+                <div class="social-links">
+                    <a href="https://github.com/boris-pavel" target="_blank" class="social-item">GitHub</a>
+                    <a href="https://linkedin.com/in/boris-pavel" target="_blank" class="social-item">LinkedIn</a>
+                    <a href="https://twitter.com/borispavel_" target="_blank" class="social-item">X (Twitter)</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Designed & Built by <span class="highlight">Boris Pavel</span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
